@@ -55,11 +55,11 @@ height = int(input('Unesite visinu trokuta: '))
 sign = input('Unesi znak: ')
 
 print(sign)
-for number in range(height - 2):
+for number in range(height):
     #print('*' + ' ' * number + '*')
     print(f'{sign}{" " * number}{sign}')
 
 #print('*' + '*' * (height - 2) + '*')
-print(f'{sign}{sign * (height - 2)}{sign}')
+print(f'{sign}{sign * (height)}{sign}')
 print()
 print()
